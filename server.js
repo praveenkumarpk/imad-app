@@ -24,7 +24,7 @@ app.get('/article1', function (req, res) {
 
 app.get('test1',function(req,res)
 {
-  res.sendFile(path.join(__dirname,'test')) ; 
+  res.sendFile(path.join(__dirname,'test.html')) ; 
 });
 
 
