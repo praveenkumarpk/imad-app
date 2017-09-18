@@ -17,14 +17,14 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 app.get('/article1', function (req, res) {
-  res.send('eefref');
+  res.send('Article1');
 });
 
 //praveenkumar test1.html
 
 app.get('test1',function(req,res)
 {
-  res.sendFile(path.join(__dirname,'ui','style.css')) ; 
+  res.sendFile(path.join(__dirname,'test')) ; 
 });
 
 
