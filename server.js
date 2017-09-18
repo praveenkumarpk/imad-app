@@ -22,7 +22,7 @@ app.get('/article1', function (req, res) {
 
 //praveenkumar test1.html
 
-app.get('test1',function(req,res)
+app.get('/test1',function(req,res)
 {
   res.sendFile(path.join(__dirname,'test.html')) ; 
 });
